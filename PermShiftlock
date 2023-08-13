@@ -88,15 +88,3 @@ local ShiftLockAction = ContextActionService:BindAction("Shift Lock", ShiftLock,
 ContextActionService:SetPosition("Shift Lock", UDim2.new(0.8, 0, 0.8, 0))
 
 return {} and ShiftLockAction
-
-
-
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-
-OrionLib:MakeNotification({
-	Name = "Loaded Script!",
-	Content = "Restore By Guesttester_1",
-	Image = "rbxassetid://4483345998",
-	Time = 3
-})
-OrionLib:Init()
