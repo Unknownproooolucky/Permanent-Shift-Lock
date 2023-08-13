@@ -14,7 +14,7 @@ Notification:Notify(
 )
 wait(3)
 Notification:Notify(
-    {Title = "POWERED BY SCRIPTBLOX AND GITHUB ", Description = " Coded notification By Unknownproooolucky"},e"},
+    {Title = "POWERED BY SCRIPTBLOX AND GITHUB ", Description = "Coded by Unknownproooolucky"},e"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
 )
 local ShiftLockScreenGui = Instance.new("ScreenGui")
