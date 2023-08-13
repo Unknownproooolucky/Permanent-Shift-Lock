@@ -19,7 +19,7 @@ Notification:Notify(
 ) 
 wait(4)
 Notification:Notify(
-    {Title = "SCRIPT LOADED! ", Description = " type PermShiftlock Executed!"},
+    {Title = "Script Executed ", Description = " type PermShiftlock Executed!"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
 ) 
 local ShiftLockScreenGui = Instance.new("ScreenGui")
