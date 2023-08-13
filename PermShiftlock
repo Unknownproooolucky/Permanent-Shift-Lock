@@ -14,6 +14,11 @@ Notification:Notify(
 )
 wait(3)
 Notification:Notify(
+    {Title = "Subscribe Me!!! ", Description = " YT: guesttester_1"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
+) 
+wait(3)
+Notification:Notify(
     {Title = "SCRIPT LOADED! ", Description = " type PermShiftlock"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
 ) 
