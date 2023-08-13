@@ -1,3 +1,4 @@
+--CREDIT TO OWNER RESTORE BY GUESTTESTER_1--
 local ShiftLockScreenGui = Instance.new("ScreenGui")
 local ShiftLockButton = Instance.new("ImageButton")
 local ShiftlockCursor = Instance.new("ImageLabel")
