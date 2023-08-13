@@ -1,3 +1,3 @@
 # Permanent-Shift-Lock-Script
-Credit to Owner
+Credit to BAZILIFM
 Restored By Guesttester_1
