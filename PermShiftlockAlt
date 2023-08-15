@@ -1,3 +1,8 @@
+-- PermShiftlock Mobile
+-- Version 2
+
+-- Instances:
+
 local ShiftLockScreenGui = Instance.new("ScreenGui")
 local ShiftLockButton = Instance.new("ImageButton")
 local ShiftlockCursor = Instance.new("ImageLabel")
@@ -17,6 +22,8 @@ local MaxLength = 900000
 local EnabledOffset = CFrame.new(1.7, 0, 0)
 local DisabledOffset = CFrame.new(-1.7, 0, 0)
 local Active
+
+--Properties:
 
 ShiftLockScreenGui.Name = "Shiftlock (CoreGui)"
 ShiftLockScreenGui.Parent = CoreGui
@@ -41,6 +48,8 @@ ShiftlockCursor.SizeConstraint = Enum.SizeConstraint.RelativeXX
 ShiftlockCursor.BackgroundTransparency = 1
 ShiftlockCursor.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 ShiftlockCursor.Visible = false
+
+-- Scripts:
 
 ShiftLockButton.MouseButton1Click:Connect(
     function()
