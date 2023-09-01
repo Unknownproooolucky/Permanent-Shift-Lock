@@ -25,5 +25,4 @@ Notification:Notify(
 
 
 
-
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Alt/alt/PermShiftlockAlt'))()
