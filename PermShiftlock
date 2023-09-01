@@ -2,26 +2,27 @@ local NotificationHolder = loadstring(game:HttpGet("https://raw.githubuserconten
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 
 Notification:Notify(
-    {Title = "Mobile Version ", Description = "Credit by BAZILIFM Remade By tibe0124"},
+    {Title = "Mobile Version", Description = "Credit to BAZILIFM Remade By tibe0124"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "option"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
 )
 wait(3)
 Notification:Notify(
-    {Title = "Powered by ScriptBlox And Github", Description = "Coded By Unknownproooolucky"},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "image"},
+    {Title = "Subscribe to tibe_D4RK in YT", Description = "Coded By Unknownproooolucky"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "image"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
 )
 wait(1)
 Notification:Notify(
-    {Title = "Script executing... ", Description = " take a few seconds"},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
+    {Title = "Script Executing... ", Description = " Finding Lua Script..."},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 1, Type = "default"}
 ) 
 wait(1)
 Notification:Notify(
-    {Title = "Script Executed ", Description = " type PermShiftlockMobile Executed!"},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
-) 
+    {Title = "Script Executed! ", Description = " type PermShiftlockMobile Executed"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 1, Type = "default"}
+) 		
+
 
 
 
